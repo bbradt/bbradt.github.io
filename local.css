@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+body {
+    /*background: linear-gradient(90deg, white, gray);*/
+    background: #000;
+    background: url('bbradt.github.io/images/Rhizome2.png'), #000;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body,
+p {
+    font-family: Arial;
+    /* no .ttf */
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    max-width: 1170px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 50px;
+    /* max-width: 1170px; */
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+}
+
+.centerme {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.row:before,
+.row:after {
+    display: table;
+    content: " ";
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #923347;
+    text-align: center;
+}
+
+.lead {
+    font-size: 21px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 25px 45px;
+    color: white;
+}
+
+.small {
+    font-size: .9em;
+}
+
+a {
+    font-size: 1em;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration-color: #923347;
+}
+
+b {
+    color: #923347;
+}
+
+rect {
+    transform-origin: 0% 0%;
+}
+
+button {
+    margin: 5px 5px;
+    border: none;
+    border-radius: 15px;
+    -webkit-transition: background .5s, transform .5s;
+    transition: background .5s, transform .5s;
+}
+
+button:hover {
+    background: #923347;
+    -webkit-transition: background .5s, transform .5s;
+    transition: background .5s, transform .5s;
+    transform: translateY(-5px);
+}
+
+a button {
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+}
+
+a button: hover {
+    color: white;
+}
