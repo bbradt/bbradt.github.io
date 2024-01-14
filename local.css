@@ -62,6 +62,13 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #923347;
+    text-align: center;
+}
+
 .lead {
     font-size: 21px;
     font-weight: 200;
