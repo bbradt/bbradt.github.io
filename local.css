@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+/* Thick red border */
+
+hr {
+    border: 1px solid white;
+}
+
 iframe {
     display: block;
 }
