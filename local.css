@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+iframe {
+    display: block;
+}
+
 body {
     /*background: linear-gradient(90deg, white, gray);*/
     background: #000;
